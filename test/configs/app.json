@@ -1,0 +1,9 @@
+{
+  "Configs": {
+    "Env": "dev",
+    "Docs": "true",
+    "Host": "localhost:8888",
+    "ServerType": "web",
+    "SysName": "communication-service"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "Tracer": {
+    "ServiceName": "appcode",
+    "Disabled": true,
+    "Sampler": {
+      "SamplingRate": 1
+    },
+    "Reporter": {
+      "LogSpans": true,
+      "BufferFlushInterval": 1,
+      "LocalAgentHostPort": "127.0.0.1:11800"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "Mysql": {
+    "DbName": "",
+    "Pool": {
+      "PoolMinCap": 10,
+      "PoolExCap": 5,
+      "PoolMaxCap": 40,
+      "PoolIdleTimeout": 3600,
+      "PoolWaitCount": 1000,
+      "PoolWaitTimeout": 30
+    },
+    "Write": {
+      "Address": "127.0.0.1",
+      "Port": 33066,
+      "User": "root",
+      "Password": "password"
+    },
+    "Reads": [
+      {
+        "Address": "127.0.0.1",
+        "Port": 33066,
+        "User": "root",
+        "Password": "password"
+      }
+    ]
+  },
+  "Mongo": {
+    "DbName": "",
+    "Servers": "127.0.0.1:27017,127.0.0.1:27017,127.0.0.1:27017",
+    "ReadOption": "primary",
+    "Options": "authSource=admin",
+    "User": "mongoadmin",
+    "Password": "mongopassword",
+    "Timeout": 60,
+    "MaxPoolSize": 100,
+    "MinPoolSize": 10,
+    "SocketTimeout": 30,
+    "ConnectTimeout": 5,
+    "MaxConnIdleTime": 600,
+    "ServerSelectionTimeout": 30
+  }
+}

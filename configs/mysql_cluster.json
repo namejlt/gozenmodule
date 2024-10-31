@@ -1,0 +1,28 @@
+[
+  {
+    "DbNum": 1001,
+    "DbName": "demo",
+    "Pool": {
+      "PoolMinCap": 10,
+      "PoolExCap": 5,
+      "PoolMaxCap": 40,
+      "PoolIdleTimeout": 3600,
+      "PoolWaitCount": 1000,
+      "PoolWaitTimeout": 30
+    },
+    "Write": {
+      "Address": "127.0.0.1",
+      "Port": 33062,
+      "User": "root",
+      "Password": "password"
+    },
+    "Reads": [
+      {
+        "Address": "127.0.0.1",
+        "Port": 33062,
+        "User": "root",
+        "Password": "password"
+      }
+    ]
+  }
+]
